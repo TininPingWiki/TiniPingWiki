@@ -35,3 +35,9 @@
 | 인증 | Firebase Authentication |
 | 미디어 | ExoPlayer, YouTube Player API |
 | UI 구성 | RecyclerView, CardView, Fragment, BottomNavigationView |
+
+## 📄 프로젝트 보고서
+
+프로젝트 진행 과정과 결과물을 정리한 문서는 아래 링크에서 확인할 수 있습니다.
+
+[👉 티니핑 백과사전 팀 프로젝트 보고서 (Google Drive)](https://drive.google.com/file/d/1dK__YhiLMexkQaC3-dMnHBCHCZF9CmW9/view?usp=drive_link)
