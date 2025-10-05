@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgorund_image"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/singledayregular"
+            android:layout_centerHorizontal="true"
+            android:text="반짝반짝 빛이나는 나"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text1">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/tiniping"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/text1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/romi"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tiniping"
+            android:text="로미"
+            android:fontFamily="@font/singledayregular"
+            android:textSize="20dp"
+            android:layout_marginStart="35dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별 : 여성"
+            android:layout_toEndOf="@+id/tiniping"
+            android:layout_below="@+id/text1"
+            android:fontFamily="@font/singledayregular"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/sex">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나이 : 12세"
+            android:layout_toEndOf="@+id/tiniping"
+            android:layout_below="@+id/sex"
+            android:fontFamily="@font/singledayregular"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/symbol">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="파트너 : 하츄핑"
+            android:layout_toEndOf="@+id/tiniping"
+            android:layout_below="@+id/symbol"
+            android:fontFamily="@font/singledayregular"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/birth">
+        </TextView>
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="1"> <!-- 두 번째 열을 균등하게 확장 -->
+        <!-- 첫 번째 행 -->
+        <TableRow>
+            <TextView
+                android:text="마법도구"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#EDC1EA"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:text="티니하트윙, 하트윙스틱, 티니하트실드"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#F09EEB"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        <!-- 두 번째 행 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#EDC1EA"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="꿈"
+                android:fontFamily="@font/singledayregular"/>
+
+            <TextView
+                android:text="티니핑을 모두 캐치한 뒤 이모션 왕국의 차기 여왕으로써 능력을 갖추는 것"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#F09EEB"
+                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                />
+        </TableRow>
+
+        <!-- 세 번째 행 -->
+        <TableRow>
+            <TextView
+                android:text="취미"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#EDC1EA"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:text="베이킹, 노래하고 춤추기"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#F09EEB"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❤️ 영상"
+        android:fontFamily="@font/singledayregular"
+
+        android:textSize="15dp">
+    </TextView>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="384dp"
+        android:layout_height="230dp"
+        app:videoId="JZnlWeDYd8I"
+        app:autoPlay="false" />
+
+</LinearLayout>

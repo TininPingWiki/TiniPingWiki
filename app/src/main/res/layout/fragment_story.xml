@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/storytitle" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/storyline" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/blank" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5"
+        android:fontFamily="@font/singledayregular"
+        android:textSize="17dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:text="우주 어딘가에 있는 이모션 왕국이라는 왕국의 공주 로미가 지구로 뿔뿔이 흩어진 마음의 요정인 티니핑들을 캐치하러 지구로 떠나, 지구에 있는 하모니 마을이라는 마을에서 살아가며 학교 친구들, 그리고 하트로즈 베이커리 직원들과 일상을 보내며, 흩어진 티니핑들을 캐치해내는 것이 주된 내용이다." />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/detailline" />
+
+    <ImageView
+        android:id="@+id/imageseriesone"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/seriesone" />
+
+    <ImageView
+        android:id="@+id/imageseriestwo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/imageseriesone"
+        android:src="@drawable/seriestwo" />
+
+    <ImageView
+        android:id="@+id/imageseriesthree"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/seriesthree" />
+
+    <ImageView
+        android:id="@+id/imageseriesfour"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginStart="-368dp"
+        android:layout_marginTop="166dp"
+        android:layout_toEndOf="@+id/imageseriesthree"
+        android:src="@drawable/seriesfour" />
+
+    <ImageView
+        android:id="@+id/imageseriesfive"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/imageseriesone"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="469dp"
+        android:src="@drawable/seriesfive" />
+
+</RelativeLayout>

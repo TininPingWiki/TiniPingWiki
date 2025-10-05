@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TiniPingEx</string>
+    <string-array name="animated_texts">
+        <item>우리 친구들! 우리 함께 나만의 티니핑을 찾아보자~!!</item>
+        <item>자 그럼 질문이 나갈꺼야 우리 함께 원하는걸 골라볼까?</item>
+        <item>자~ 그럼 골라줘!</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

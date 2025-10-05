@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgorund_image"> <!-- 배경 이미지 -->
+
+    <!-- 첫 번째 행 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-200dp"
+        android:gravity="center">
+
+        <!-- 첫 번째 이미지와 텍스트 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imagebakery"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/bakery"
+                 />
+
+
+        </LinearLayout>
+
+        <!-- 두 번째 이미지와 텍스트 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageschool"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/school"
+                 />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 두 번째 행 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- 세 번째 이미지와 텍스트 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imagekingdom"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/kingdom"
+                 />
+
+        </LinearLayout>
+
+        <!-- 네 번째 이미지와 텍스트 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imagevillage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/village"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

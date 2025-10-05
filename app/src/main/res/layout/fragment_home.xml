@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 프로필 영역 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp">
+
+        <!-- 프로필 이미지 -->
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/defaultprofile"
+            android:background="@drawable/round_background_border_black"
+            />
+
+        <!-- 프로필 텍스트 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvNickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nickname"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/tvStatusMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status Message"
+                    android:textSize="14sp"
+                    android:textColor="#666666" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="친구"
+            android:layout_gravity="end|bottom"
+            android:layout_marginRight="30dp"/>
+
+        <TextView
+            android:id="@+id/changeprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:text="프로필 변경"/>
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="end|bottom"
+            android:text="로그아웃"/>
+
+
+
+
+    </LinearLayout>
+
+    <!-- MiniHome 영역 -->
+    <FrameLayout
+        android:id="@+id/minihome_view"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:background="@drawable/homehome"
+        android:layout_marginBottom="16dp"
+         />
+
+    <!-- 하단 버튼 및 삭제 영역 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <!-- 꾸미기 버튼 -->
+        <Button
+            android:id="@+id/show_bottom_sheet_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="꾸미기"
+            android:layout_marginEnd="8dp" />
+
+        <!-- 삭제 영역 -->
+        <FrameLayout
+            android:id="@+id/delete_zone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/garbege" />
+    </LinearLayout>
+
+</LinearLayout>
+

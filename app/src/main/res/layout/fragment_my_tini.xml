@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgorund_image">
+
+    <ImageView
+        android:id="@+id/mytinitext2"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/findmytinitext" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cloud"
+        android:id="@+id/cloud2"
+        android:layout_below="@id/mytinitext2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/animatedText"
+        android:layout_width="190dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/singledayregular"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:layout_alignTop="@+id/cloud2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+
+    <ImageView
+        android:id="@+id/mbtiImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/kikiping"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cloud2"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 하루를 보낼 때 특별한 계획 없이 즐겁게 보내는 것이 좋아요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@id/mbtiImageView"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 미리 정해 놓은 계획에 따라 하루를 즐겁게 보내는 것이 좋아요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@id/button1"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 해보지 않은 새로운 놀이에 좀 더 호기심이 생겨요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button2"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 내가 할 줄 아는 놀이가 편안해요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button3"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 친구에게 공평하게 대하는 것이 더 중요해요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button4"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 친구에게 친절하게 대하는 것이 더 중요해요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button5"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="새로운 모둠 반에 처음 들어가게 되었어요. 이때 나는 새로운 친구들을 만나게 되어 신이나요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button6"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="새로운 모둠 반에 처음 들어가게 되었어요. 이때 나는 새로운 친구들과 어떻게 지낼까 걱정이 돼요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button7"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 하고 있던 놀이나 숙제를 계속 이어서 하기 위해 물건을 사용하고 나서 우선 적당한 곳애 두는 편이에요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button8"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 사용했던 물건을 다음번에도 잘 찾을 수 있도록 사용하고 나서 정해진 자리에 두는 편이에요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button9"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 나의 생각을 친구들에게 이야기 하는 거서보다 혼자서 생각하는 것이 더 좋아요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button10"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 재미있는 생각이 떠오르면 친구나 가족에게 이야기를 나누는 것이 더 좋아요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button11"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="친구들과 함께 블럭쌓기 대회를 할 때 우리 모둠이 멋지게 만들어서 승리하는 것이 더 중요해요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button12"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="블럭쌓기 대회에세 우리 모둠이 이기는 것보다 친구들과 함께 다투지 않고 즐겁게 협동하는 것이 더 중요해요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button13"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="친구가 울고 있을 때 나는 친구야, 왜울어? 하고 왜 우는지 물어보는 편이에요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button14"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="친구가 울고 있을 때 나는 친구야, 울지마 하고 우선 달래주는 편이에요"
+        android:fontFamily="@font/singledayregular"
+        android:layout_below="@+id/button15"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 숙제를 해야할 때 빨리 시작해서 끝내놓고, 그 뒤에 재미있게 노는 것이 더 좋아요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button16"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 우선 재미있게 놀이를 하고, 마지막에 집중해서 숙제를 하는 것이 더 좋아요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button17"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 친한 몇 명의 친구들과 이야기하는 것을 좋아하는 편이에요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button18"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="나는 친한 친구뿐만 아니라, 처음 보는 친구들과도 쉽게 이야기를 하는 편이에요"
+        android:fontFamily="@font/singledayregular"
+        android:gravity="center"
+        android:layout_below="@+id/button19"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
+

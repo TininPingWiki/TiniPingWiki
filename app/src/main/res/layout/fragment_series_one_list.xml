@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/serieslistmain" />
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="회차"
+                android:textStyle="bold"
+                android:textSize="19dp"/>
+
+            <TextView
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="누적회차"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textSize="19dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="제목"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <!-- 첫 번째 데이터 행 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="62dp">
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="01화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="01화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:breakStrategy="simple"
+                android:linksClickable="true"
+                android:padding="8dp"
+                android:text="반짝반짝 보석티니핑 https://www.youtube.com/watch?v=_Trni5YhFUw"
+
+
+                />
+
+        </TableRow>
+
+        <!-- 두 번째 데이터 행 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="02화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="02화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:breakStrategy="simple"
+                android:linksClickable="true"
+                android:padding="8dp"
+                android:text="티니핑 스쿨개교! https://www.youtube.com/watch?v=alEFGDOSu60"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="03화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="03화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:breakStrategy="simple"
+                android:linksClickable="true"
+                android:padding="8dp"
+                android:text="간지럼을 참아야 해! https://www.youtube.com/watch?v=5Nf5Gt6ThUU"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="04화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="04화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:breakStrategy="simple"
+                android:linksClickable="true"
+                android:padding="8dp"
+                android:text="아야아야 엄살은 그만! https://www.youtube.com/watch?v=28jVRbD1oQM"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="05화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="05화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:breakStrategy="simple"
+                android:linksClickable="true"
+                android:padding="8dp"
+                android:text="소원핑의 세 가지 소원 https://www.youtube.com/watch?v=_Trni5YhFUw"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="06화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="06화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:breakStrategy="simple"
+                android:linksClickable="true"
+                android:padding="8dp"
+                android:text="토닥토닥, 따뜻한 위로를 줄게 https://www.youtube.com/watch?v=_Trni5YhFUw"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="07화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="07화" />
+
+            <TextView
+                android:textSize="16dp"
+                android:fontFamily="@font/singledayregular"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:breakStrategy="simple"
+                android:linksClickable="true"
+                android:padding="8dp"
+                android:text="사라진 로미 https://www.youtube.com/watch?v=_Trni5YhFUw"
+                />
+
+
+        </TableRow>
+
+
+
+
+
+
+
+    </TableLayout>
+
+</RelativeLayout>

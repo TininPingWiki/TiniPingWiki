@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bakerytitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imagebakery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/imagebakery" />
+
+            <ImageView
+                android:id="@+id/imageblank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagebakery"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/blank" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageblank"
+                android:layout_alignEnd="@+id/imageblank"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/singledayregular"
+                android:textSize="17dp"
+                android:text="캐치! 티니핑 시리즈에 등장하는 로미와 사라가 인간세계에서 머무르는 제과점이자 자택. 부를때는 주로 베이커리를 빼고 하트로즈라고만 부른다.1층이 제과점으로 진열대에는 각 시즌마다 티니핑들이 사는 전용 하우스가 배치되어 있으며, 직원들이 티니핑들에게 여러 번 당하는 빈도가 많았다." />
+
+            <ImageView
+                android:id="@+id/imagebakeryline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageblank"
+                android:layout_alignStart="@+id/imageblank"
+                android:layout_marginStart="-15dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bakeryline" />
+
+            <ImageView
+                android:id="@+id/iamgebakerycharacter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagebakeryline"
+                android:layout_alignStart="@+id/imagebakeryline"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bakerycharacter" />
+
+            <TextView
+                android:id="@+id/jun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagebakeryline"
+                android:layout_alignStart="@+id/imagebakeryline"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/singledayregular"
+                android:textSize="20dp"
+                android:text="준" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/jun"
+                android:layout_below="@+id/imagebakeryline"
+                android:layout_marginTop="330dp"
+                android:layout_marginStart="60dp"
+                android:fontFamily="@font/singledayregular"
+                android:textSize="20dp"
+                android:text="사라"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/jun"
+                android:layout_below="@+id/imagebakeryline"
+                android:layout_marginTop="330dp"
+                android:layout_marginStart="120dp"
+                android:fontFamily="@font/singledayregular"
+                android:textSize="20dp"
+                android:text="카일"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/jun"
+                android:layout_below="@+id/imagebakeryline"
+                android:layout_marginTop="330dp"
+                android:layout_marginStart="180dp"
+                android:fontFamily="@font/singledayregular"
+                android:textSize="20dp"
+                android:text="이안"/>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

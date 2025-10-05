@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgorund_image"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/singledayregular"
+            android:layout_centerHorizontal="true"
+            android:text="새콤한거 좋아해?"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text1">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/tiniping"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/text1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/tangyping"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tiniping"
+            android:text="새콤핑"
+            android:fontFamily="@font/singledayregular"
+            android:textSize="20dp"
+            android:layout_marginStart="35dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별 : 여성"
+            android:layout_toEndOf="@+id/tiniping"
+            android:layout_below="@+id/text1"
+            android:fontFamily="@font/singledayregular"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/sex">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="심볼 : 하트"
+            android:layout_toEndOf="@+id/tiniping"
+            android:layout_below="@+id/sex"
+            android:fontFamily="@font/singledayregular"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/symbol">
+        </TextView>
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="1"> <!-- 두 번째 열을 균등하게 확장 -->
+        <!-- 첫 번째 행 -->
+        <TableRow>
+            <TextView
+                android:text="소품"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#EDC1EA"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:text="하프(2기), 향수(3기), 핸드벨(4기), 글로우퍼프(5기)"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#F09EEB"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        <!-- 두 번째 행 -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#EDC1EA"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="좋아하는것"
+                android:fontFamily="@font/singledayregular"/>
+
+            <TextView
+                android:text="손거울을 보며 사랑스러운 표정 연습하기(1기), 차 마시기, 하프치기(2기), 로미와 함께 있는 모든 순간(3~4기), 생크림 딸기 케이크(4기), 딸기"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#F09EEB"
+                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                />
+        </TableRow>
+
+        <!-- 세 번째 행 -->
+        <TableRow>
+            <TextView
+                android:text="싫어하는것"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#EDC1EA"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:text="억지로 잠을 깨우는 것, 갑자기 깜짝 놀라게하는 것"
+                android:fontFamily="@font/singledayregular"
+                android:padding="8dp"
+                android:background="#F09EEB"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❤️ 영상"
+        android:fontFamily="@font/singledayregular"
+
+        android:textSize="15dp">
+    </TextView>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="384dp"
+        android:layout_height="230dp"
+        app:videoId="JZnlWeDYd8I"
+        app:autoPlay="false" />
+
+</LinearLayout>

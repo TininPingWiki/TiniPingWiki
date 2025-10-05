@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivFriendProfile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/round_background_border_black"
+        android:src="@drawable/defaultprofile" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFriendName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friend Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvFriendStatusMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status Message"
+            android:textSize="14sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGoToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="친구 방" />
+
+    <Button
+        android:id="@+id/btnDeleteFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="친구삭제"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

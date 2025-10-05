@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgorund_image">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-30dp"
+        android:src="@drawable/storyandbackground" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/conversation"
+        android:layout_above="@+id/myTextView"
+        android:layout_marginBottom="-30dp"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/storybackgroundtitle" />
+
+    <ImageView
+        android:id="@+id/imagestroy"
+        android:layout_width="138dp"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/cloud" />
+
+    <ImageView
+        android:id="@+id/imagebackgroud"
+        android:layout_width="138dp"
+        android:layout_height="166dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/cloud" />
+
+
+
+    <ImageView
+        android:id="@+id/imagecharacter"
+        android:layout_width="138dp"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/cloud" />
+
+    <TextView
+        android:id="@+id/stroytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imagestroy"
+        android:layout_alignEnd="@+id/imagestroy"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="@font/singledayregular"
+        android:text="줄거리 및 회차목록"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/backgroundtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imagebackgroud"
+        android:layout_alignEnd="@+id/imagebackgroud"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="65dp"
+        android:fontFamily="@font/singledayregular"
+        android:text="배경"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/charactertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagecharacter"
+        android:layout_alignStart="@+id/imagecharacter"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="-87dp"
+        android:fontFamily="@font/singledayregular"
+        android:text="등장인물"
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/singledayregular"
+        android:text="안녕! 티니핑의 모험과 친구들에 대해 알려줄께~" />
+
+</RelativeLayout>

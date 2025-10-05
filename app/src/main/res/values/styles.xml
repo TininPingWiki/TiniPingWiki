@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom Navigation Style -->
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconSize">48dp</item>
+        <item name="itemPaddingTop">-8dp</item> <!-- 아이콘 크기 -->
+        <item name="itemTextAppearanceActive">@style/ActiveTextAppearance</item>
+        <item name="itemTextAppearanceInactive">@style/InactiveTextAppearance</item>
+    </style>
+
+    <style name="ActiveTextAppearance" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item> <!-- 활성 상태 텍스트 크기 -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="InactiveTextAppearance" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item> <!-- 비활성 상태 텍스트 크기 -->
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+</resources>
